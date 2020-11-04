@@ -60,8 +60,7 @@ const production = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name]_[hash].css'
-    }),
-    new CleanWebpackPlugin(),
+    })
   ]
 }
 module.exports = merge(production, commonConfig)
